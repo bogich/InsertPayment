@@ -111,50 +111,70 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         [System.ServiceModel.FaultContractAttribute(typeof(Gis.Infrastructure.PaymentServiceAsync.Fault), Action="urn:importNotificationsOfOrderExecution", Name="Fault", Namespace="http://dom.gosuslugi.ru/schema/integration/base/")]
         [System.ServiceModel.XmlSerializerFormatAttribute()]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(SupplierNotificationOfOrderExecutionType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationExportType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HeaderType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecution139Type))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecutionType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentDocument[]))]
         Gis.Infrastructure.PaymentServiceAsync.importNotificationsOfOrderExecutionResponse importNotificationsOfOrderExecution(Gis.Infrastructure.PaymentServiceAsync.importNotificationsOfOrderExecutionRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:importNotificationsOfOrderExecutionCancellation", ReplyAction="*")]
         [System.ServiceModel.FaultContractAttribute(typeof(Gis.Infrastructure.PaymentServiceAsync.Fault), Action="urn:importNotificationsOfOrderExecutionCancellation", Name="Fault", Namespace="http://dom.gosuslugi.ru/schema/integration/base/")]
         [System.ServiceModel.XmlSerializerFormatAttribute()]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(SupplierNotificationOfOrderExecutionType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationExportType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HeaderType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecution139Type))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecutionType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentDocument[]))]
         Gis.Infrastructure.PaymentServiceAsync.importNotificationsOfOrderExecutionResponse importNotificationsOfOrderExecutionCancellation(Gis.Infrastructure.PaymentServiceAsync.importNotificationsOfOrderExecutionCancellationRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:getState", ReplyAction="*")]
         [System.ServiceModel.FaultContractAttribute(typeof(Gis.Infrastructure.PaymentServiceAsync.Fault), Action="urn:getState", Name="Fault", Namespace="http://dom.gosuslugi.ru/schema/integration/base/")]
         [System.ServiceModel.XmlSerializerFormatAttribute()]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(SupplierNotificationOfOrderExecutionType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationExportType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HeaderType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecution139Type))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecutionType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentDocument[]))]
         Gis.Infrastructure.PaymentServiceAsync.getStateResponse getState(Gis.Infrastructure.PaymentServiceAsync.getStateRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:exportPaymentDocumentDetails", ReplyAction="*")]
         [System.ServiceModel.FaultContractAttribute(typeof(Gis.Infrastructure.PaymentServiceAsync.Fault), Action="urn:exportPaymentDocumentDetails", Name="Fault", Namespace="http://dom.gosuslugi.ru/schema/integration/base/")]
         [System.ServiceModel.XmlSerializerFormatAttribute()]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(SupplierNotificationOfOrderExecutionType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationExportType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HeaderType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecution139Type))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecutionType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentDocument[]))]
         Gis.Infrastructure.PaymentServiceAsync.importNotificationsOfOrderExecutionResponse exportPaymentDocumentDetails(Gis.Infrastructure.PaymentServiceAsync.exportPaymentDocumentDetailsRequest1 request);
         
         [System.ServiceModel.OperationContractAttribute(Action="urn:importSupplierNotificationsOfOrderExecution", ReplyAction="*")]
         [System.ServiceModel.FaultContractAttribute(typeof(Gis.Infrastructure.PaymentServiceAsync.Fault), Action="urn:importSupplierNotificationsOfOrderExecution", Name="Fault", Namespace="http://dom.gosuslugi.ru/schema/integration/base/")]
         [System.ServiceModel.XmlSerializerFormatAttribute()]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(SupplierNotificationOfOrderExecutionType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationExportType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(HeaderType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecution139Type))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentInformationType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(NotificationOfOrderExecutionType))]
         [System.ServiceModel.ServiceKnownTypeAttribute(typeof(BaseType))]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(PaymentDocument[]))]
         Gis.Infrastructure.PaymentServiceAsync.importNotificationsOfOrderExecutionResponse importSupplierNotificationsOfOrderExecution(Gis.Infrastructure.PaymentServiceAsync.importSupplierNotificationsOfOrderExecutionRequest1 request);
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -257,7 +277,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", IncludeInSchema=false)]
     public enum ItemChoiceType
@@ -271,7 +291,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -326,7 +346,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -435,7 +455,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -490,7 +510,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/payment/", IncludeInSchema=false)]
     public enum ItemChoiceType1
@@ -506,7 +526,237 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/payments-base/")]
+    public partial class PaymentInformationExportType : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private string recipientINNField;
+        
+        private string recipientKPPField;
+        
+        private string bankNameField;
+        
+        private string paymentRecipientField;
+        
+        private string bankBIKField;
+        
+        private string operatingAccountNumberField;
+        
+        private string correspondentBankAccountField;
+        
+        private bool isCapitalRepairField;
+        
+        private bool isCapitalRepairFieldSpecified;
+        
+        private string kBKField;
+        
+        private string oKTMOField;
+        
+        private string numberBudgetaryAccountField;
+        
+        public PaymentInformationExportType()
+        {
+            this.isCapitalRepairField = true;
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string RecipientINN
+        {
+            get
+            {
+                return this.recipientINNField;
+            }
+            set
+            {
+                this.recipientINNField = value;
+                this.RaisePropertyChanged("RecipientINN");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string RecipientKPP
+        {
+            get
+            {
+                return this.recipientKPPField;
+            }
+            set
+            {
+                this.recipientKPPField = value;
+                this.RaisePropertyChanged("RecipientKPP");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string BankName
+        {
+            get
+            {
+                return this.bankNameField;
+            }
+            set
+            {
+                this.bankNameField = value;
+                this.RaisePropertyChanged("BankName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string PaymentRecipient
+        {
+            get
+            {
+                return this.paymentRecipientField;
+            }
+            set
+            {
+                this.paymentRecipientField = value;
+                this.RaisePropertyChanged("PaymentRecipient");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public string BankBIK
+        {
+            get
+            {
+                return this.bankBIKField;
+            }
+            set
+            {
+                this.bankBIKField = value;
+                this.RaisePropertyChanged("BankBIK");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string operatingAccountNumber
+        {
+            get
+            {
+                return this.operatingAccountNumberField;
+            }
+            set
+            {
+                this.operatingAccountNumberField = value;
+                this.RaisePropertyChanged("operatingAccountNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public string CorrespondentBankAccount
+        {
+            get
+            {
+                return this.correspondentBankAccountField;
+            }
+            set
+            {
+                this.correspondentBankAccountField = value;
+                this.RaisePropertyChanged("CorrespondentBankAccount");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public bool IsCapitalRepair
+        {
+            get
+            {
+                return this.isCapitalRepairField;
+            }
+            set
+            {
+                this.isCapitalRepairField = value;
+                this.RaisePropertyChanged("IsCapitalRepair");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool IsCapitalRepairSpecified
+        {
+            get
+            {
+                return this.isCapitalRepairFieldSpecified;
+            }
+            set
+            {
+                this.isCapitalRepairFieldSpecified = value;
+                this.RaisePropertyChanged("IsCapitalRepairSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public string KBK
+        {
+            get
+            {
+                return this.kBKField;
+            }
+            set
+            {
+                this.kBKField = value;
+                this.RaisePropertyChanged("KBK");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public string OKTMO
+        {
+            get
+            {
+                return this.oKTMOField;
+            }
+            set
+            {
+                this.oKTMOField = value;
+                this.RaisePropertyChanged("OKTMO");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=10)]
+        public string NumberBudgetaryAccount
+        {
+            get
+            {
+                return this.numberBudgetaryAccountField;
+            }
+            set
+            {
+                this.numberBudgetaryAccountField = value;
+                this.RaisePropertyChanged("NumberBudgetaryAccount");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -630,7 +880,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -686,7 +936,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -724,7 +974,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -796,7 +1046,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -827,6 +1077,12 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         private string placementField;
         
         private string address_stringField;
+        
+        private string residential_blockField;
+        
+        private string residential_block_roomField;
+        
+        private string non_residential_blockField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -1008,6 +1264,51 @@ namespace Gis.Infrastructure.PaymentServiceAsync
             }
         }
         
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=12)]
+        public string residential_block
+        {
+            get
+            {
+                return this.residential_blockField;
+            }
+            set
+            {
+                this.residential_blockField = value;
+                this.RaisePropertyChanged("residential_block");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=13)]
+        public string residential_block_room
+        {
+            get
+            {
+                return this.residential_block_roomField;
+            }
+            set
+            {
+                this.residential_block_roomField = value;
+                this.RaisePropertyChanged("residential_block_room");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=14)]
+        public string non_residential_block
+        {
+            get
+            {
+                return this.non_residential_blockField;
+            }
+            set
+            {
+                this.non_residential_blockField = value;
+                this.RaisePropertyChanged("non_residential_block");
+            }
+        }
+        
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
         
         protected void RaisePropertyChanged(string propertyName)
@@ -1021,7 +1322,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1033,7 +1334,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         
         private object itemField;
         
-        private PaymentDocumentDetailsTypeExecutorInformationPaymentInformation paymentInformationField;
+        private PaymentDocumentDetailsTypeExecutorInformationPaymentInformation[] paymentInformationField;
         
         private string mailingAddressField;
         
@@ -1069,8 +1370,8 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public PaymentDocumentDetailsTypeExecutorInformationPaymentInformation PaymentInformation
+        [System.Xml.Serialization.XmlElementAttribute("PaymentInformation", Order=2)]
+        public PaymentDocumentDetailsTypeExecutorInformationPaymentInformation[] PaymentInformation
         {
             get
             {
@@ -1114,10 +1415,8 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(MSPIndType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(CitizenCompensationOverviewType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(CitizenSubsidyOverviewType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(VotingInitiatorIndType))]
-    [System.Xml.Serialization.XmlIncludeAttribute(typeof(AccountIndType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(IndType))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1191,7 +1490,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(CitizenCompensationOverviewType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(CitizenSubsidyOverviewType))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1320,7 +1619,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1409,7 +1708,8 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.Xml.Serialization.XmlIncludeAttribute(typeof(ValueEnumerationType))]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1481,7 +1781,17 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/tariff/")]
+    public partial class ValueEnumerationType : nsiRef
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/msp/")]
     public enum MSPIndTypeSex
@@ -1495,7 +1805,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1607,7 +1917,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/msp/")]
     public enum CitizenCompensationOverviewTypeRegistrationType
@@ -1621,7 +1931,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1727,7 +2037,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/msp/")]
     public enum ServiceType
@@ -1768,10 +2078,22 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         
         /// <remarks/>
         Rent,
+        
+        /// <remarks/>
+        CollectiveHotWater,
+        
+        /// <remarks/>
+        CollectiveColdWater,
+        
+        /// <remarks/>
+        CollectiveElectricity,
+        
+        /// <remarks/>
+        CollectiveSewerage,
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -1911,7 +2233,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2000,7 +2322,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2038,7 +2360,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2167,7 +2489,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/msp/")]
     public enum CitizenSubsidyOverviewTypeRegistrationType
@@ -2181,366 +2503,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/house-management/")]
-    public partial class VotingInitiatorIndType : FIOType
-    {
-        
-        private VotingInitiatorIndTypeSex sexField;
-        
-        private bool sexFieldSpecified;
-        
-        private System.DateTime dateOfBirthField;
-        
-        private bool dateOfBirthFieldSpecified;
-        
-        private string sNILSField;
-        
-        private VotingInitiatorIndID votingInitiatorIndIDField;
-        
-        private string placeBirthField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public VotingInitiatorIndTypeSex Sex
-        {
-            get
-            {
-                return this.sexField;
-            }
-            set
-            {
-                this.sexField = value;
-                this.RaisePropertyChanged("Sex");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SexSpecified
-        {
-            get
-            {
-                return this.sexFieldSpecified;
-            }
-            set
-            {
-                this.sexFieldSpecified = value;
-                this.RaisePropertyChanged("SexSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
-        public System.DateTime DateOfBirth
-        {
-            get
-            {
-                return this.dateOfBirthField;
-            }
-            set
-            {
-                this.dateOfBirthField = value;
-                this.RaisePropertyChanged("DateOfBirth");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DateOfBirthSpecified
-        {
-            get
-            {
-                return this.dateOfBirthFieldSpecified;
-            }
-            set
-            {
-                this.dateOfBirthFieldSpecified = value;
-                this.RaisePropertyChanged("DateOfBirthSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/individual-registry-base/", Order=2)]
-        public string SNILS
-        {
-            get
-            {
-                return this.sNILSField;
-            }
-            set
-            {
-                this.sNILSField = value;
-                this.RaisePropertyChanged("SNILS");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
-        public VotingInitiatorIndID VotingInitiatorIndID
-        {
-            get
-            {
-                return this.votingInitiatorIndIDField;
-            }
-            set
-            {
-                this.votingInitiatorIndIDField = value;
-                this.RaisePropertyChanged("VotingInitiatorIndID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
-        public string PlaceBirth
-        {
-            get
-            {
-                return this.placeBirthField;
-            }
-            set
-            {
-                this.placeBirthField = value;
-                this.RaisePropertyChanged("PlaceBirth");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/house-management/")]
-    public enum VotingInitiatorIndTypeSex
-    {
-        
-        /// <remarks/>
-        M,
-        
-        /// <remarks/>
-        F,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/house-management/")]
-    public partial class VotingInitiatorIndID : object, System.ComponentModel.INotifyPropertyChanged
-    {
-        
-        private nsiRef typeField;
-        
-        private string seriesField;
-        
-        private string numberField;
-        
-        private System.DateTime issueDateField;
-        
-        private bool issueDateFieldSpecified;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public nsiRef Type
-        {
-            get
-            {
-                return this.typeField;
-            }
-            set
-            {
-                this.typeField = value;
-                this.RaisePropertyChanged("Type");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Series
-        {
-            get
-            {
-                return this.seriesField;
-            }
-            set
-            {
-                this.seriesField = value;
-                this.RaisePropertyChanged("Series");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Number
-        {
-            get
-            {
-                return this.numberField;
-            }
-            set
-            {
-                this.numberField = value;
-                this.RaisePropertyChanged("Number");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=3)]
-        public System.DateTime IssueDate
-        {
-            get
-            {
-                return this.issueDateField;
-            }
-            set
-            {
-                this.issueDateField = value;
-                this.RaisePropertyChanged("IssueDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool IssueDateSpecified
-        {
-            get
-            {
-                return this.issueDateFieldSpecified;
-            }
-            set
-            {
-                this.issueDateFieldSpecified = value;
-                this.RaisePropertyChanged("IssueDateSpecified");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName)
-        {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null))
-            {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/house-management/")]
-    public partial class AccountIndType : FIOType
-    {
-        
-        private AccountIndTypeSex sexField;
-        
-        private bool sexFieldSpecified;
-        
-        private System.DateTime dateOfBirthField;
-        
-        private bool dateOfBirthFieldSpecified;
-        
-        private object itemField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public AccountIndTypeSex Sex
-        {
-            get
-            {
-                return this.sexField;
-            }
-            set
-            {
-                this.sexField = value;
-                this.RaisePropertyChanged("Sex");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool SexSpecified
-        {
-            get
-            {
-                return this.sexFieldSpecified;
-            }
-            set
-            {
-                this.sexFieldSpecified = value;
-                this.RaisePropertyChanged("SexSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
-        public System.DateTime DateOfBirth
-        {
-            get
-            {
-                return this.dateOfBirthField;
-            }
-            set
-            {
-                this.dateOfBirthField = value;
-                this.RaisePropertyChanged("DateOfBirth");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool DateOfBirthSpecified
-        {
-            get
-            {
-                return this.dateOfBirthFieldSpecified;
-            }
-            set
-            {
-                this.dateOfBirthFieldSpecified = value;
-                this.RaisePropertyChanged("DateOfBirthSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ID", typeof(ID), Namespace="http://dom.gosuslugi.ru/schema/integration/individual-registry-base/", Order=2)]
-        [System.Xml.Serialization.XmlElementAttribute("SNILS", typeof(string), Namespace="http://dom.gosuslugi.ru/schema/integration/individual-registry-base/", Order=2)]
-        public object Item
-        {
-            get
-            {
-                return this.itemField;
-            }
-            set
-            {
-                this.itemField = value;
-                this.RaisePropertyChanged("Item");
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/house-management/")]
-    public enum AccountIndTypeSex
-    {
-        
-        /// <remarks/>
-        M,
-        
-        /// <remarks/>
-        F,
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2653,7 +2616,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/individual-registry-base/")]
     public enum Sex
@@ -2667,7 +2630,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2722,17 +2685,544 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payment/")]
-    public partial class PaymentDocumentDetailsTypeExecutorInformationPaymentInformation : PaymentInformationType
+    public partial class PaymentDocumentDetailsTypeExecutorInformationPaymentInformation : PaymentInformationExportType
     {
+        
+        private string paymentInformationGuidField;
+        
+        private decimal reminderField;
+        
+        private bool reminderFieldSpecified;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string PaymentInformationGuid
+        {
+            get
+            {
+                return this.paymentInformationGuidField;
+            }
+            set
+            {
+                this.paymentInformationGuidField = value;
+                this.RaisePropertyChanged("PaymentInformationGuid");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public decimal Reminder
+        {
+            get
+            {
+                return this.reminderField;
+            }
+            set
+            {
+                this.reminderField = value;
+                this.RaisePropertyChanged("Reminder");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool ReminderSpecified
+        {
+            get
+            {
+                return this.reminderFieldSpecified;
+            }
+            set
+            {
+                this.reminderFieldSpecified = value;
+                this.RaisePropertyChanged("ReminderSpecified");
+            }
+        }
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/")]
+    public partial class ErrorMessageType : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private string errorCodeField;
+        
+        private string descriptionField;
+        
+        private string stackTraceField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string ErrorCode
+        {
+            get
+            {
+                return this.errorCodeField;
+            }
+            set
+            {
+                this.errorCodeField = value;
+                this.RaisePropertyChanged("ErrorCode");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Description
+        {
+            get
+            {
+                return this.descriptionField;
+            }
+            set
+            {
+                this.descriptionField = value;
+                this.RaisePropertyChanged("Description");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string StackTrace
+        {
+            get
+            {
+                return this.stackTraceField;
+            }
+            set
+            {
+                this.stackTraceField = value;
+                this.RaisePropertyChanged("StackTrace");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/payments-base/")]
+    public partial class NotificationOfOrderExecutionCancellationType : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private string orderIDField;
+        
+        private System.DateTime cancellationDateField;
+        
+        private string commentField;
+        
+        private string transportGUIDField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string OrderID
+        {
+            get
+            {
+                return this.orderIDField;
+            }
+            set
+            {
+                this.orderIDField = value;
+                this.RaisePropertyChanged("OrderID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
+        public System.DateTime CancellationDate
+        {
+            get
+            {
+                return this.cancellationDateField;
+            }
+            set
+            {
+                this.cancellationDateField = value;
+                this.RaisePropertyChanged("CancellationDate");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public string Comment
+        {
+            get
+            {
+                return this.commentField;
+            }
+            set
+            {
+                this.commentField = value;
+                this.RaisePropertyChanged("Comment");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=3)]
+        public string TransportGUID
+        {
+            get
+            {
+                return this.transportGUIDField;
+            }
+            set
+            {
+                this.transportGUIDField = value;
+                this.RaisePropertyChanged("TransportGUID");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/")]
+    public partial class HeaderType : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private System.DateTime dateField;
+        
+        private string messageGUIDField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public System.DateTime Date
+        {
+            get
+            {
+                return this.dateField;
+            }
+            set
+            {
+                this.dateField = value;
+                this.RaisePropertyChanged("Date");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string MessageGUID
+        {
+            get
+            {
+                return this.messageGUIDField;
+            }
+            set
+            {
+                this.messageGUIDField = value;
+                this.RaisePropertyChanged("MessageGUID");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/payments-base/")]
+    public partial class NotificationOfOrderExecution139Type : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private NotificationOfOrderExecution139TypeOrderInfo orderInfoField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public NotificationOfOrderExecution139TypeOrderInfo OrderInfo
+        {
+            get
+            {
+                return this.orderInfoField;
+            }
+            set
+            {
+                this.orderInfoField = value;
+                this.RaisePropertyChanged("OrderInfo");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payments-base/")]
+    public partial class NotificationOfOrderExecution139TypeOrderInfo : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private string orderIDField;
+        
+        private System.DateTime orderDateField;
+        
+        private decimal amountField;
+        
+        private NotificationOfOrderExecution139TypeOrderInfoMonthAndYear monthAndYearField;
+        
+        private string[] itemsField;
+        
+        private ItemsChoiceType4[] itemsElementNameField;
+        
+        private string paymentInformationGUIDField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string OrderID
+        {
+            get
+            {
+                return this.orderIDField;
+            }
+            set
+            {
+                this.orderIDField = value;
+                this.RaisePropertyChanged("OrderID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
+        public System.DateTime OrderDate
+        {
+            get
+            {
+                return this.orderDateField;
+            }
+            set
+            {
+                this.orderDateField = value;
+                this.RaisePropertyChanged("OrderDate");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
+        public decimal Amount
+        {
+            get
+            {
+                return this.amountField;
+            }
+            set
+            {
+                this.amountField = value;
+                this.RaisePropertyChanged("Amount");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public NotificationOfOrderExecution139TypeOrderInfoMonthAndYear MonthAndYear
+        {
+            get
+            {
+                return this.monthAndYearField;
+            }
+            set
+            {
+                this.monthAndYearField = value;
+                this.RaisePropertyChanged("MonthAndYear");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ServiceID", typeof(string), Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute("PaymentDocumentID", typeof(string), Namespace="http://dom.gosuslugi.ru/schema/integration/bills-base/", Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute("PaymentDocumentGUID", typeof(string), Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute("ServiceIDGUID", typeof(string), Order=4)]
+        [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
+        public string[] Items
+        {
+            get
+            {
+                return this.itemsField;
+            }
+            set
+            {
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=5)]
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public ItemsChoiceType4[] ItemsElementName
+        {
+            get
+            {
+                return this.itemsElementNameField;
+            }
+            set
+            {
+                this.itemsElementNameField = value;
+                this.RaisePropertyChanged("ItemsElementName");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public string PaymentInformationGUID
+        {
+            get
+            {
+                return this.paymentInformationGUIDField;
+            }
+            set
+            {
+                this.paymentInformationGUIDField = value;
+                this.RaisePropertyChanged("PaymentInformationGUID");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payments-base/")]
+    public partial class NotificationOfOrderExecution139TypeOrderInfoMonthAndYear : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private short yearField;
+        
+        private int monthField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=0)]
+        public short Year
+        {
+            get
+            {
+                return this.yearField;
+            }
+            set
+            {
+                this.yearField = value;
+                this.RaisePropertyChanged("Year");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=1)]
+        public int Month
+        {
+            get
+            {
+                return this.monthField;
+            }
+            set
+            {
+                this.monthField = value;
+                this.RaisePropertyChanged("Month");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/payments-base/", IncludeInSchema=false)]
+    public enum ItemsChoiceType4
+    {
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("http://dom.gosuslugi.ru/schema/integration/account-base/:ServiceID")]
+        ServiceID,
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlEnumAttribute("http://dom.gosuslugi.ru/schema/integration/bills-base/:PaymentDocumentID")]
+        PaymentDocumentID,
+        
+        /// <remarks/>
+        PaymentDocumentGUID,
+        
+        /// <remarks/>
+        ServiceIDGUID,
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -2753,6 +3243,12 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         private string operatingAccountNumberField;
         
         private string correspondentBankAccountField;
+        
+        private string kBKField;
+        
+        private string oKTMOField;
+        
+        private string numberBudgetaryAccountField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=0)]
@@ -2859,75 +3355,48 @@ namespace Gis.Infrastructure.PaymentServiceAsync
             }
         }
         
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName)
-        {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null))
-            {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/")]
-    public partial class ErrorMessageType : object, System.ComponentModel.INotifyPropertyChanged
-    {
-        
-        private string errorCodeField;
-        
-        private string descriptionField;
-        
-        private string stackTraceField;
-        
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string ErrorCode
+        [System.Xml.Serialization.XmlElementAttribute(Order=7)]
+        public string KBK
         {
             get
             {
-                return this.errorCodeField;
+                return this.kBKField;
             }
             set
             {
-                this.errorCodeField = value;
-                this.RaisePropertyChanged("ErrorCode");
+                this.kBKField = value;
+                this.RaisePropertyChanged("KBK");
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string Description
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public string OKTMO
         {
             get
             {
-                return this.descriptionField;
+                return this.oKTMOField;
             }
             set
             {
-                this.descriptionField = value;
-                this.RaisePropertyChanged("Description");
+                this.oKTMOField = value;
+                this.RaisePropertyChanged("OKTMO");
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string StackTrace
+        [System.Xml.Serialization.XmlElementAttribute(Order=9)]
+        public string NumberBudgetaryAccount
         {
             get
             {
-                return this.stackTraceField;
+                return this.numberBudgetaryAccountField;
             }
             set
             {
-                this.stackTraceField = value;
-                this.RaisePropertyChanged("StackTrace");
+                this.numberBudgetaryAccountField = value;
+                this.RaisePropertyChanged("NumberBudgetaryAccount");
             }
         }
         
@@ -2944,151 +3413,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/payments-base/")]
-    public partial class NotificationOfOrderExecutionCancellationType : object, System.ComponentModel.INotifyPropertyChanged
-    {
-        
-        private string orderIDField;
-        
-        private System.DateTime cancellationDateField;
-        
-        private string commentField;
-        
-        private string transportGUIDField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public string OrderID
-        {
-            get
-            {
-                return this.orderIDField;
-            }
-            set
-            {
-                this.orderIDField = value;
-                this.RaisePropertyChanged("OrderID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(DataType="date", Order=1)]
-        public System.DateTime CancellationDate
-        {
-            get
-            {
-                return this.cancellationDateField;
-            }
-            set
-            {
-                this.cancellationDateField = value;
-                this.RaisePropertyChanged("CancellationDate");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public string Comment
-        {
-            get
-            {
-                return this.commentField;
-            }
-            set
-            {
-                this.commentField = value;
-                this.RaisePropertyChanged("Comment");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=3)]
-        public string TransportGUID
-        {
-            get
-            {
-                return this.transportGUIDField;
-            }
-            set
-            {
-                this.transportGUIDField = value;
-                this.RaisePropertyChanged("TransportGUID");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName)
-        {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null))
-            {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/")]
-    public partial class HeaderType : object, System.ComponentModel.INotifyPropertyChanged
-    {
-        
-        private System.DateTime dateField;
-        
-        private string messageGUIDField;
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
-        public System.DateTime Date
-        {
-            get
-            {
-                return this.dateField;
-            }
-            set
-            {
-                this.dateField = value;
-                this.RaisePropertyChanged("Date");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
-        public string MessageGUID
-        {
-            get
-            {
-                return this.messageGUIDField;
-            }
-            set
-            {
-                this.messageGUIDField = value;
-                this.RaisePropertyChanged("MessageGUID");
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName)
-        {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null))
-            {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3160,7 +3485,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3215,7 +3540,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3227,7 +3552,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         
         private object itemField;
         
-        private PaymentInformationType paymentInformationField;
+        private NotificationOfOrderExecutionTypeRecipientInfoPaymentInformation paymentInformationField;
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/organizations-base/", Order=0)]
@@ -3263,7 +3588,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=2)]
-        public PaymentInformationType PaymentInformation
+        public NotificationOfOrderExecutionTypeRecipientInfoPaymentInformation PaymentInformation
         {
             get
             {
@@ -3289,7 +3614,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3344,7 +3669,17 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payments-base/")]
+    public partial class NotificationOfOrderExecutionTypeRecipientInfoPaymentInformation : PaymentInformationType
+    {
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3603,7 +3938,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3637,7 +3972,10 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Apartment", typeof(string), Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("NonLivingApartment", typeof(string), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("NonResidentialBlock", typeof(string), Order=1)]
         [System.Xml.Serialization.XmlElementAttribute("Placement", typeof(string), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("ResidentialBlock", typeof(string), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("ResidentialBlockRoom", typeof(string), Order=1)]
         [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
         public string[] Items
         {
@@ -3697,7 +4035,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/payments-base/", IncludeInSchema=false)]
     public enum ItemsChoiceType3
@@ -3710,11 +4048,20 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         NonLivingApartment,
         
         /// <remarks/>
+        NonResidentialBlock,
+        
+        /// <remarks/>
         Placement,
+        
+        /// <remarks/>
+        ResidentialBlock,
+        
+        /// <remarks/>
+        ResidentialBlockRoom,
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3753,7 +4100,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(CapRemCommonResultType))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3827,7 +4174,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3837,7 +4184,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3864,7 +4211,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3954,7 +4301,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -3993,7 +4340,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4052,7 +4399,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#", IncludeInSchema=false)]
     public enum ItemsChoiceType1
@@ -4070,7 +4417,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4125,7 +4472,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4187,7 +4534,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#", IncludeInSchema=false)]
     public enum ItemsChoiceType
@@ -4214,7 +4561,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4287,7 +4634,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4360,7 +4707,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4415,7 +4762,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4555,7 +4902,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4612,7 +4959,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4710,7 +5057,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.w3.org/2000/09/xmldsig#", IncludeInSchema=false)]
     public enum ItemsChoiceType2
@@ -4743,7 +5090,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4798,7 +5145,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4854,7 +5201,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -4978,7 +5325,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5051,7 +5398,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5107,7 +5454,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5196,7 +5543,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5304,7 +5651,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(CapRemImportResultType))]
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(BaseAsyncResponseType))]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5359,7 +5706,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5387,7 +5734,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5431,7 +5778,215 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payment/")]
+    public partial class PaymentDocument : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private string paymentDocumentIDField;
+        
+        private string paymentDocumentNumberField;
+        
+        private string unifiedAccountNumberField;
+        
+        private string accountNumberField;
+        
+        private string serviceIDField;
+        
+        private PaymentDocumentDetailsType paymentDocumentDetailsField;
+        
+        private short yearField;
+        
+        private bool yearFieldSpecified;
+        
+        private int monthField;
+        
+        private bool monthFieldSpecified;
+        
+        private string paymentDocumentGUIDField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/bills-base/", Order=0)]
+        public string PaymentDocumentID
+        {
+            get
+            {
+                return this.paymentDocumentIDField;
+            }
+            set
+            {
+                this.paymentDocumentIDField = value;
+                this.RaisePropertyChanged("PaymentDocumentID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/bills-base/", Order=1)]
+        public string PaymentDocumentNumber
+        {
+            get
+            {
+                return this.paymentDocumentNumberField;
+            }
+            set
+            {
+                this.paymentDocumentNumberField = value;
+                this.RaisePropertyChanged("PaymentDocumentNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=2)]
+        public string UnifiedAccountNumber
+        {
+            get
+            {
+                return this.unifiedAccountNumberField;
+            }
+            set
+            {
+                this.unifiedAccountNumberField = value;
+                this.RaisePropertyChanged("UnifiedAccountNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=3)]
+        public string AccountNumber
+        {
+            get
+            {
+                return this.accountNumberField;
+            }
+            set
+            {
+                this.accountNumberField = value;
+                this.RaisePropertyChanged("AccountNumber");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=4)]
+        public string ServiceID
+        {
+            get
+            {
+                return this.serviceIDField;
+            }
+            set
+            {
+                this.serviceIDField = value;
+                this.RaisePropertyChanged("ServiceID");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public PaymentDocumentDetailsType PaymentDocumentDetails
+        {
+            get
+            {
+                return this.paymentDocumentDetailsField;
+            }
+            set
+            {
+                this.paymentDocumentDetailsField = value;
+                this.RaisePropertyChanged("PaymentDocumentDetails");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=6)]
+        public short Year
+        {
+            get
+            {
+                return this.yearField;
+            }
+            set
+            {
+                this.yearField = value;
+                this.RaisePropertyChanged("Year");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool YearSpecified
+        {
+            get
+            {
+                return this.yearFieldSpecified;
+            }
+            set
+            {
+                this.yearFieldSpecified = value;
+                this.RaisePropertyChanged("YearSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=7)]
+        public int Month
+        {
+            get
+            {
+                return this.monthField;
+            }
+            set
+            {
+                this.monthField = value;
+                this.RaisePropertyChanged("Month");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        public bool MonthSpecified
+        {
+            get
+            {
+                return this.monthFieldSpecified;
+            }
+            set
+            {
+                this.monthFieldSpecified = value;
+                this.RaisePropertyChanged("MonthSpecified");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=8)]
+        public string PaymentDocumentGUID
+        {
+            get
+            {
+                return this.paymentDocumentGUIDField;
+            }
+            set
+            {
+                this.paymentDocumentGUIDField = value;
+                this.RaisePropertyChanged("PaymentDocumentGUID");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5439,7 +5994,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     public partial class importNotificationsOfOrderExecutionRequest : BaseType
     {
         
-        private importNotificationsOfOrderExecutionRequestNotificationOfOrderExecutionType[] notificationOfOrderExecutionTypeField;
+        private object[] itemsField;
         
         private string versionField;
         
@@ -5449,17 +6004,18 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("NotificationOfOrderExecutionType", Order=0)]
-        public importNotificationsOfOrderExecutionRequestNotificationOfOrderExecutionType[] NotificationOfOrderExecutionType
+        [System.Xml.Serialization.XmlElementAttribute("NotificationOfOrderExecution139Type", typeof(importNotificationsOfOrderExecutionRequestNotificationOfOrderExecution139Type), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("NotificationOfOrderExecutionType", typeof(importNotificationsOfOrderExecutionRequestNotificationOfOrderExecutionType), Order=0)]
+        public object[] Items
         {
             get
             {
-                return this.notificationOfOrderExecutionTypeField;
+                return this.itemsField;
             }
             set
             {
-                this.notificationOfOrderExecutionTypeField = value;
-                this.RaisePropertyChanged("NotificationOfOrderExecutionType");
+                this.itemsField = value;
+                this.RaisePropertyChanged("Items");
             }
         }
         
@@ -5480,7 +6036,34 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payment/")]
+    public partial class importNotificationsOfOrderExecutionRequestNotificationOfOrderExecution139Type : NotificationOfOrderExecution139Type
+    {
+        
+        private string transportGUIDField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=0)]
+        public string TransportGUID
+        {
+            get
+            {
+                return this.transportGUIDField;
+            }
+            set
+            {
+                this.transportGUIDField = value;
+                this.RaisePropertyChanged("TransportGUID");
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5507,7 +6090,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5517,7 +6100,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5555,7 +6138,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5656,7 +6239,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5728,7 +6311,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5766,7 +6349,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5817,7 +6400,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -5827,9 +6410,11 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         
         private PaymentDocument[] chargeField;
         
+        private Service[] serviceField;
+        
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayAttribute(Order=0)]
-        [System.Xml.Serialization.XmlArrayItemAttribute("PaymentDocument", typeof(PaymentDocument), IsNullable=false)]
+        [System.Xml.Serialization.XmlArrayItemAttribute("PaymentDocument", IsNullable=false)]
         public PaymentDocument[] Charge
         {
             get
@@ -5840,6 +6425,21 @@ namespace Gis.Infrastructure.PaymentServiceAsync
             {
                 this.chargeField = value;
                 this.RaisePropertyChanged("Charge");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Service", Order=1)]
+        public Service[] Service
+        {
+            get
+            {
+                return this.serviceField;
+            }
+            set
+            {
+                this.serviceField = value;
+                this.RaisePropertyChanged("Service");
             }
         }
         
@@ -5856,17 +6456,13 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payment/")]
-    public partial class PaymentDocument : object, System.ComponentModel.INotifyPropertyChanged
+    public partial class Service : object, System.ComponentModel.INotifyPropertyChanged
     {
-        
-        private string paymentDocumentIDField;
-        
-        private string paymentDocumentNumberField;
         
         private string unifiedAccountNumberField;
         
@@ -5874,48 +6470,16 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         
         private string serviceIDField;
         
-        private object itemField;
+        private string serviceIDGuidField;
         
-        private short yearField;
+        private ServiceExecutorInformation executorInformationField;
         
-        private bool yearFieldSpecified;
+        private string purposeField;
         
-        private int monthField;
-        
-        private bool monthFieldSpecified;
+        private string pDServiceNameField;
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/bills-base/", Order=0)]
-        public string PaymentDocumentID
-        {
-            get
-            {
-                return this.paymentDocumentIDField;
-            }
-            set
-            {
-                this.paymentDocumentIDField = value;
-                this.RaisePropertyChanged("PaymentDocumentID");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/bills-base/", Order=1)]
-        public string PaymentDocumentNumber
-        {
-            get
-            {
-                return this.paymentDocumentNumberField;
-            }
-            set
-            {
-                this.paymentDocumentNumberField = value;
-                this.RaisePropertyChanged("PaymentDocumentNumber");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=2)]
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=0)]
         public string UnifiedAccountNumber
         {
             get
@@ -5930,7 +6494,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=3)]
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=1)]
         public string AccountNumber
         {
             get
@@ -5945,7 +6509,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=4)]
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=2)]
         public string ServiceID
         {
             get
@@ -5960,8 +6524,112 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ErrorMessage", typeof(ErrorMessageType), Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=5)]
-        [System.Xml.Serialization.XmlElementAttribute("PaymentDocumentDetails", typeof(PaymentDocumentDetailsType), Order=5)]
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string ServiceIDGuid
+        {
+            get
+            {
+                return this.serviceIDGuidField;
+            }
+            set
+            {
+                this.serviceIDGuidField = value;
+                this.RaisePropertyChanged("ServiceIDGuid");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=4)]
+        public ServiceExecutorInformation ExecutorInformation
+        {
+            get
+            {
+                return this.executorInformationField;
+            }
+            set
+            {
+                this.executorInformationField = value;
+                this.RaisePropertyChanged("ExecutorInformation");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=5)]
+        public string Purpose
+        {
+            get
+            {
+                return this.purposeField;
+            }
+            set
+            {
+                this.purposeField = value;
+                this.RaisePropertyChanged("Purpose");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=6)]
+        public string PDServiceName
+        {
+            get
+            {
+                return this.pDServiceNameField;
+            }
+            set
+            {
+                this.pDServiceNameField = value;
+                this.RaisePropertyChanged("PDServiceName");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payment/")]
+    public partial class ServiceExecutorInformation : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private string iNNField;
+        
+        private object itemField;
+        
+        private ServiceExecutorInformationPaymentInformation[] paymentInformationField;
+        
+        private string mailingAddressField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/organizations-base/", Order=0)]
+        public string INN
+        {
+            get
+            {
+                return this.iNNField;
+            }
+            set
+            {
+                this.iNNField = value;
+                this.RaisePropertyChanged("INN");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("Entpr", typeof(FIOType), Order=1)]
+        [System.Xml.Serialization.XmlElementAttribute("Legal", typeof(ServiceExecutorInformationLegal), Order=1)]
         public object Item
         {
             get
@@ -5976,62 +6644,32 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=6)]
-        public short Year
+        [System.Xml.Serialization.XmlElementAttribute("PaymentInformation", Order=2)]
+        public ServiceExecutorInformationPaymentInformation[] PaymentInformation
         {
             get
             {
-                return this.yearField;
+                return this.paymentInformationField;
             }
             set
             {
-                this.yearField = value;
-                this.RaisePropertyChanged("Year");
+                this.paymentInformationField = value;
+                this.RaisePropertyChanged("PaymentInformation");
             }
         }
         
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool YearSpecified
+        [System.Xml.Serialization.XmlElementAttribute(Order=3)]
+        public string MailingAddress
         {
             get
             {
-                return this.yearFieldSpecified;
+                return this.mailingAddressField;
             }
             set
             {
-                this.yearFieldSpecified = value;
-                this.RaisePropertyChanged("YearSpecified");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/base/", Order=7)]
-        public int Month
-        {
-            get
-            {
-                return this.monthField;
-            }
-            set
-            {
-                this.monthField = value;
-                this.RaisePropertyChanged("Month");
-            }
-        }
-        
-        /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool MonthSpecified
-        {
-            get
-            {
-                return this.monthFieldSpecified;
-            }
-            set
-            {
-                this.monthFieldSpecified = value;
-                this.RaisePropertyChanged("MonthSpecified");
+                this.mailingAddressField = value;
+                this.RaisePropertyChanged("MailingAddress");
             }
         }
         
@@ -6043,6 +6681,88 @@ namespace Gis.Infrastructure.PaymentServiceAsync
             if ((propertyChanged != null))
             {
                 propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payment/")]
+    public partial class ServiceExecutorInformationLegal : object, System.ComponentModel.INotifyPropertyChanged
+    {
+        
+        private string kPPField;
+        
+        private string nameField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/organizations-base/", Order=0)]
+        public string KPP
+        {
+            get
+            {
+                return this.kPPField;
+            }
+            set
+            {
+                this.kPPField = value;
+                this.RaisePropertyChanged("KPP");
+            }
+        }
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=1)]
+        public string Name
+        {
+            get
+            {
+                return this.nameField;
+            }
+            set
+            {
+                this.nameField = value;
+                this.RaisePropertyChanged("Name");
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName)
+        {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null))
+            {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
+    [System.SerializableAttribute()]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType=true, Namespace="http://dom.gosuslugi.ru/schema/integration/payment/")]
+    public partial class ServiceExecutorInformationPaymentInformation : PaymentInformationExportType
+    {
+        
+        private string paymentInformationGuidField;
+        
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute(Order=0)]
+        public string PaymentInformationGuid
+        {
+            get
+            {
+                return this.paymentInformationGuidField;
+            }
+            set
+            {
+                this.paymentInformationGuidField = value;
+                this.RaisePropertyChanged("PaymentInformationGuid");
             }
         }
     }
@@ -6094,7 +6814,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6104,16 +6824,11 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         
         private object[] itemsField;
         
-        private ItemsChoiceType4[] itemsElementNameField;
+        private ItemsChoiceType5[] itemsElementNameField;
         
         private exportPaymentDocumentDetailsRequestAmountRequired amountRequiredField;
         
         private string versionField;
-        
-        public exportPaymentDocumentDetailsRequest()
-        {
-            this.versionField = "10.0.1.1";
-        }
         
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AccountNumber", typeof(string), Namespace="http://dom.gosuslugi.ru/schema/integration/account-base/", Order=0)]
@@ -6124,6 +6839,12 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         [System.Xml.Serialization.XmlElementAttribute("PaymentDocumentID", typeof(string), Namespace="http://dom.gosuslugi.ru/schema/integration/bills-base/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("PaymentDocumentNumber", typeof(string), Namespace="http://dom.gosuslugi.ru/schema/integration/bills-base/", Order=0)]
         [System.Xml.Serialization.XmlElementAttribute("FIASHouseGuid", typeof(string), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("NonResidentialApartment", typeof(string), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("NonResidentialBlock", typeof(string), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("ResidentialBlock", typeof(string), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("ResidentialBlockRoom", typeof(string), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("ResidentialPremise", typeof(string), Order=0)]
+        [System.Xml.Serialization.XmlElementAttribute("ResidentialPremiseRoom", typeof(string), Order=0)]
         [System.Xml.Serialization.XmlChoiceIdentifierAttribute("ItemsElementName")]
         public object[] Items
         {
@@ -6141,7 +6862,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ItemsElementName", Order=1)]
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public ItemsChoiceType4[] ItemsElementName
+        public ItemsChoiceType5[] ItemsElementName
         {
             get
             {
@@ -6186,10 +6907,10 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://dom.gosuslugi.ru/schema/integration/payment/", IncludeInSchema=false)]
-    public enum ItemsChoiceType4
+    public enum ItemsChoiceType5
     {
         
         /// <remarks/>
@@ -6222,10 +6943,28 @@ namespace Gis.Infrastructure.PaymentServiceAsync
         
         /// <remarks/>
         FIASHouseGuid,
+        
+        /// <remarks/>
+        NonResidentialApartment,
+        
+        /// <remarks/>
+        NonResidentialBlock,
+        
+        /// <remarks/>
+        ResidentialBlock,
+        
+        /// <remarks/>
+        ResidentialBlockRoom,
+        
+        /// <remarks/>
+        ResidentialPremise,
+        
+        /// <remarks/>
+        ResidentialPremiseRoom,
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6264,7 +7003,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6274,7 +7013,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6352,7 +7091,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -6401,7 +7140,7 @@ namespace Gis.Infrastructure.PaymentServiceAsync
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.6.1055.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("svcutil", "4.8.3928.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]

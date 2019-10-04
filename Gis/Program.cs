@@ -7,7 +7,6 @@ using System.Text;
 using System.Configuration;
 using Gis.Infrastructure.PaymentServiceAsync;
 using Gis.Helpers.HelperPaymentAsync;
-//using V83;
 using Gis.Infrastructure;
 
 namespace Gis
@@ -19,19 +18,6 @@ namespace Gis
 
         static void Main(string[] args)
 		{
-            //Аннулирование загруженных ПКО
-            //HelperPaymentAsync helperPaymentAsync1 = new HelperPaymentAsync();
-            //string ack1 = helperPaymentAsync1.SetNotificationsOfOrderExecutionCancellation(_orgPPAGUID, "10000000000000001803210039232645").ToString();
-            //Console.Read();
-
-            //Вариант с прямым подключением к 1С
-            //COMConnector V83conn = new COMConnector();
-            //V83conn.PoolCapacity = 10;
-            //V83conn.PoolTimeout = 60;
-            //V83conn.MaxConnections = 2;
-            //var resV83conn = V83conn.Connect("Srvr=\"1Ctest\";Ref=\"corp82test\";Usr=\"РИЦ\";pwd=\"2208290\";");
-            //var refer = resV83conn.Справочники.Номенклатура.НайтиПоКоду("001");
-
             //Вариант с выгруженными в XML ПКО
             XmlPkoParse ItemPKO = new XmlPkoParse();
             var listPKO = ItemPKO.GetItemsPKO(ConfigurationManager.AppSettings["pkoPath"]);
